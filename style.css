@@ -1,9 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html {
+    background: url('floatingpoly.svg');
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
     min-height: 100vh;
-    background: dodgerblue;
 }
+
+.active {
+    color:whitesmoke;
+    align-content: flex-end;
+    
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 80rem;
+    padding-bottom: 10px;
+    margin-top: 4rem;
+    align-content: center;
+
+}
+
+h1 {
+    margin-left: 15px;
+    background-color: gray;
+
+}
+
+button {
+    background-color: rgb(68, 0, 255);
+    color:aliceblue;
+    max-width: 12rem;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+
