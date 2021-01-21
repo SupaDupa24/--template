@@ -1,44 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-html {
-    background: url('floatingpoly.svg');
+body {
+    background: url('./floatingpoly.svg');
     box-sizing: border-box;
 }
 
-body {
-    min-height: 100vh;
-}
-
-.active {
-    color:whitesmoke;
-    align-content: flex-end;
-    
-}
-
-#container {
+.hero-container {
     display:flex;
-    flex-direction: column;
-    background-color: whitesmoke;
-    width: 80rem;
-    padding-bottom: 10px;
-    margin-top: 4rem;
-    align-content: center;
+    display: inline-block;
+    padding:10px;
+    margin: 4rem;
+    background-color: rgba(26, 51, 208, .5);
+    color:aliceblue;
+    font-size: large;
+    padding-bottom: 30px;
+    width:100%;
+    max-width: 1200px;
+}
 
+.topnav {
+    display: inline-block;
 }
 
 h1 {
-    margin-left: 15px;
+    margin:5em;
     background-color: gray;
+    padding:20px;
 
 }
 
-button {
-    background-color: rgb(68, 0, 255);
-    color:aliceblue;
-    max-width: 12rem;
+.button {
+    color: black;
     cursor: pointer;
-    padding-left: 20px;
-    margin-left: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
 }
 
 

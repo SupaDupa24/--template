@@ -1,12 +1,17 @@
-let hero = document.getElementbyID('hero');
+let hero = document.getElementById('hero');
 let button = document.getElementById('button');
 
 function hideHero () {
     document.addEventListener('scroll', () => {
         if (window.innerHeight + window.scrollY >= document.body.offsetHeight-200)
-            hero.hidden = true;
+            hero.style = none;
 
     }
     )}
+
+
+function boomer () {
+   console.log('boom'); 
+} 
 
 hideHero();
