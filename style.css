@@ -20,6 +20,11 @@ body {
 
 .topnav {
     display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: large;
 }
 
 h1 {
